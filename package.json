@@ -1,0 +1,23 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "A command line program to generate a README.md file using user feedback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtasherx/READMEGenerator.git"
+  },
+  "author": "Natasha Harrington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtasherx/READMEGenerator/issues"
+  },
+  "homepage": "https://github.com/xtasherx/READMEGenerator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "promisify": "0.0.3"
+  }
+}
