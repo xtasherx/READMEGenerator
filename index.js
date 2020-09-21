@@ -2,9 +2,13 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 function processAns(ans) {
-  const readMe = `# ${ans.projName}
+  const readMe = `
+  # ${ans.projName}
+****
+![license](https://img.shields.io/badge/license-${ans.projLic}-lightgrey&?style=for-the-badge&logo=appveyor)
 
-  ${ans.projDesc}
+
+${ans.projDesc}
 
   ## Table of Contents
   1. [Installation](#installation)
@@ -15,9 +19,6 @@ function processAns(ans) {
   ****
   ## Installation
   
-  ${ans.projInst}
-  
-
   ${ans.projInst}
   
   ****
@@ -35,8 +36,13 @@ function processAns(ans) {
 ${ans.projContr}
   ****
 ## Questions
-[github profile:] (https://github.com/${ans.projGitName})
+Github Profile: [github.com/${ans.projGitName}](https://github.com/${ans.projGitName})
+
+
 E-mail: ${ans.projEmail}
+
+
+${ans.projQuest}
 ****
   ## License
   ${ans.projLic}`;
@@ -51,7 +57,7 @@ E-mail: ${ans.projEmail}
 inquirer
   .prompt([
     {
-      message: "Enter the name of your project",
+      message: "Enter the name of your Project",
       name: "projName",
     },
     {
@@ -69,8 +75,8 @@ inquirer
     {
       type: "list",
       name: "projLic",
-      message: "choose a licence.",
-      choices: ["mit", "some choice"],
+      message: "Choose your licence.",
+      choices: ["MIT", "Apache License 2.0", "ISC", "GNU GPLv3"],
     },
     {
       message: "Enter any contribution instructions.",
@@ -83,6 +89,14 @@ inquirer
     {
       message: "Enter your email address",
       name: "projEmail",
+    },
+    {
+      message: "Enter instructions to contact you for questions",
+      name: "projQuest",
+    },
+    {
+      message: "Enter instructions for testing",
+      name: "projTest",
     },
   ])
   .then(processAns);

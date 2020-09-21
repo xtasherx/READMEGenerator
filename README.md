@@ -1,6 +1,10 @@
-# README Generator
 
-  A step by step app to create a readme for your project. 
+  # Good README Generator
+****
+![license](https://img.shields.io/badge/license-MIT-lightgrey&?style=for-the-badge&logo=appveyor)
+
+
+A step by step application to generate a quality README 
 
   ## Table of Contents
   1. [Installation](#installation)
@@ -13,26 +17,28 @@
   
   npm install readme
   
-
-  npm install readme
-  
   ****
   ## Usage
   
 
-  const readme = require ('readme')
+  const readme = require("readme")
   ****
   ## Tests
    
-  undefined
+  test
   ****
   ## Contributions
  
-pull requests welcome
+Pull requests welcome.
   ****
 ## Questions
-[github profile:] (https://github.com/xtasherx)
+Github Profile: [github.com/xtasherx](https://github.com/xtasherx)
+
+
 E-mail: xtasherx@gmail.com
+
+
+Email is preferred.
 ****
   ## License
-  mit
+  MIT
