@@ -7,6 +7,11 @@ function processAns(ans) {
   ${ans.projDesc}
 
   ## Table of Contents
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [Tests](#tests)
+  4. [Contributions](#contributions)
+  5. [Questions](#questions)
   ****
   ## Installation
   
@@ -25,12 +30,14 @@ function processAns(ans) {
    
   ${ans.projTest}
   ****
-  ## Contributing
+  ## Contributions
  
 ${ans.projContr}
   ****
 ## Questions
-
+[github profile:] (https://github.com/${ans.projGitName})
+E-mail: ${ans.projEmail}
+****
   ## License
   ${ans.projLic}`;
 
