@@ -6,6 +6,7 @@
 
 A step by step README generator to create a quality README for your project.
 
+View a video of the app in action [here](https://drive.google.com/file/d/1aiSCNMeJfdja6EKIsH1bqIufDJWahQVS/view)
 ## Table of Contents
 
 1. [Installation](#installation)
