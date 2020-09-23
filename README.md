@@ -6,7 +6,10 @@
 
 A step by step README generator to create a quality README for your project.
 
-View a video of the app in action [here](https://drive.google.com/file/d/1aiSCNMeJfdja6EKIsH1bqIufDJWahQVS/view)
+![program snippet](/assets/readmegen.gif)
+
+View a full video of the app in action [here](https://drive.google.com/file/d/1aiSCNMeJfdja6EKIsH1bqIufDJWahQVS/view)
+
 ## Table of Contents
 
 1. [Installation](#installation)
@@ -14,6 +17,7 @@ View a video of the app in action [here](https://drive.google.com/file/d/1aiSCNM
 3. [Tests](#tests)
 4. [Contributions](#contributions)
 5. [Questions](#questions)
+6. [Additional Screenshots](#screenshots)
 
 ---
 
@@ -50,6 +54,18 @@ Github Profile: [github.com/xtasherx](https://github.com/xtasherx)
 E-mail: xtasherx@gmail.com
 
 You can contact me with questions directly by email or through github.
+
+---
+
+## Screenshots
+
+### Program Promts where you can input information for your project.
+
+![Screenshot of prommpts](/assets/completed-program.PNG)
+
+### Completed README
+
+![Screentshot of completed README](/assets/completed-readme-snip.PNG)
 
 ---
 
