@@ -47,7 +47,7 @@ ${ans.projQuest}
   ## License
   ${ans.projLic}`;
 
-  fs.writeFile("README.md", readMe, (err) => {
+  fs.writeFile("yourNewREADME.md", readMe, (err) => {
     if (err) {
       throw err;
     }
@@ -76,7 +76,7 @@ inquirer
       type: "list",
       name: "projLic",
       message: "Choose your licence.",
-      choices: ["MIT", "Apache License 2.0", "ISC", "GNU GPLv3"],
+      choices: ["MIT", "Apache--2.0", "ISC", "GNU--GPLv3"],
     },
     {
       message: "Enter any contribution instructions.",
@@ -100,6 +100,3 @@ inquirer
     },
   ])
   .then(processAns);
-
-//   add all questions and capture answers
-// create template literal to format md file with user answers

@@ -1,10 +1,10 @@
 
-  # Good README Generator
+  # Good README generator
 ****
 ![license](https://img.shields.io/badge/license-MIT-lightgrey&?style=for-the-badge&logo=appveyor)
 
 
-A step by step application to generate a quality README 
+A step by step readme generator to create a quality README for your project
 
   ## Table of Contents
   1. [Installation](#installation)
@@ -15,17 +15,17 @@ A step by step application to generate a quality README
   ****
   ## Installation
   
-  npm install readme
+  npm install README
   
   ****
   ## Usage
   
 
-  const readme = require("readme")
+  const readme = require('README')
   ****
   ## Tests
    
-  test
+  no tests setup at this time
   ****
   ## Contributions
  
@@ -38,7 +38,7 @@ Github Profile: [github.com/xtasherx](https://github.com/xtasherx)
 E-mail: xtasherx@gmail.com
 
 
-Email is preferred.
+You can contact me with questions directly by email or through github.
 ****
   ## License
   MIT
